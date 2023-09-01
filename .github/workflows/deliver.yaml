@@ -49,7 +49,7 @@ jobs:
     runs-on: ubuntu-latest
     # needs: build
     # These permissions are needed to interact with GitHub's OIDC Token endpoint.
-    # test
+    # test here
     permissions:
       id-token: write
       contents: read
